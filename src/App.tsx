@@ -340,6 +340,11 @@ function App() {
                 <p className="text-sm text-gray-500">{contactConfig.businessHours}</p>
               </div>
             </div>
+            <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+              <h4 className="font-semibold text-gray-800 mb-2">Registro Profissional</h4>
+              <p className="text-[#9ACD66] font-bold text-lg">{contactConfig.crn}</p>
+              <p className="text-sm text-gray-500">Nutricionista Registrada</p>
+            </div>
           </div>
         </div>
       </section>
